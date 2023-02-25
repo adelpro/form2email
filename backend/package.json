@@ -1,0 +1,28 @@
+{
+  "name": "form2email_backend",
+  "version": "1.0.0",
+  "description": "Feedback form with backend and frontend using NodeJs, Express, NodeMailer and ReactJS",
+  "main": "server.js",
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "NodeMailer",
+    "feedback",
+    "contat-us",
+    "form"
+  ],
+  "author": "adelpro",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "express-validator": "^6.15.0",
+    "nodemailer": "^6.9.1"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "node --watch server"
+  }
+}
